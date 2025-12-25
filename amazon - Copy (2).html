@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Services | EcomBridge</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        
+        /* Navigation */
+        .nav-back { padding: 20px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: fixed; width: 100%; top: 0; z-index: 100; }
+        .nav-back a { text-decoration: none; color: #232f3e; font-weight: bold; }
+/*      
+/* --- Amazon Page Banner Fix --- */
+.amazon-banner {
+    width: 100%;
+    height: 350px; /* Ek fix height di hai taaki image dabi hui na lage */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('./images/amazon1.jpg'); 
+    background-size: cover; /* Isse image stretch nahi hogi, poore box ko cover karegi */
+    background-position: center; /* Image ka main hissa beech mein rahega */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Mobile ke liye height thodi kam kar dete hain */
+@media screen and (max-width: 768px) {
+    .amazon-banner {
+        height: 150px;
+        margin-top: 50px; /* Agar navbar upar chadh raha hai toh */
+    }
+    .amazon-banner h1{
+        font-size: 1.8rem !important;
+
+    }
+}
+        /* Banner/Hero Section */
+        /* .amazon-banner {
+            width: 100%;
+            height: 60vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://unsplash.com/photos/a-computer-screen-with-the-amazon-logo-on-it-oNPfZozvh-w');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        /* } */
+        /* .hero-banner {
+    width: 100%;
+    height: 400px; Isse height fix ho jayegi
+    /* object-fit: cover; /* Isse image stretch nahi hogi */
+    /* margin-bottom: 20px; */
+
+
+        .amazon-banner h1 { font-size: 3rem; color: #ff9900; margin-bottom: 10px; }
+
+        /* Content Section */
+        .content { max-width: 800px; margin: 50px auto; padding: 20px; }
+        .cta-btn { 
+            display: inline-block; 
+            background: #ff9900; 
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-back">
+        <a href="index.html">← Back to Home</a>
+    </div>
+    <div class="banner-container">
+    <img src="amazon1.jpeg" style="width: 70%; height: 250px; object-fit: cover; margin-top: 80px; object-position: center; border-radius: 12px; display: block; margin-left: auto; margin-right: auto;" alt="Special Offer Banner" class="hero-banner">
+</div>
+
+    <section class="amazon-banner">
+        <h1>Amazon Growth Solutions</h1>
+        <p>Expert management for your Amazon Seller Account</p>
+        <a href="index.html?go=contact" class="cta-btn">Get Free Audit</a>
+    </section>
+
+    <div class="content">
+        <h2>Scale Your Brand Professionally</h2>
+        <p>We provide end-to-end Amazon services including account setup, product listing, PPC ads management, and SEO optimization. Our data-driven strategies ensure that your brand stays ahead of the competition.</p>
+        
+        <ul style="list-style: none; padding: 0;">
+            <li>✅ Account Management</li>
+            <li>✅ Listing Optimization</li>
+            <li>✅ PPC & Advertising</li>
+        </ul>
+    </div>
+
+</body>
+</html>
